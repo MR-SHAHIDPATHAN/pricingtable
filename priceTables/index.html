@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- font awesome link -->
+
+  <script src="https://kit.fontawesome.com/cfd96a308e.js" crossorigin="anonymous"></script>
+
+ <!-- google font link  -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<style>
+
+  .parent_blue{
+    border: 1px solid blue;
+    display: flex;
+    background-color: blue;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
+  .price_table1{
+    /* border: 1px solid rgb(255, 0, 51); */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 1rem;
+
+  }
+
+  .price_table2{
+
+    /* border: 1px solid rgb(119, 255, 0); */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-radius: 1rem;
+
+
+
+  }
+
+
+  .price_table3{
+
+/* border: 1px solid rgb(255, 0, 200); */
+padding: 2rem;
+display: flex;
+flex-direction: column;  
+justify-content: center;
+align-items: center;
+background-color: white;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 1rem;
+
+ 
+
+
+
+
+}
+
+
+.pricing{
+  /* border: 2px solid rgb(57, 57, 57); */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+
+}
+
+ul > li{
+  
+  list-style: none;
+  /* color: red; */
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+li > i {
+  color: red;
+  margin-left: 2rem;
+}
+
+
+button{
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  font-size: 1.3rem;
+}
+
+
+#pricing_29{
+  background-color: orange;
+  color: white;
+}
+
+#pricing_59{
+  background-color: purple;
+  color: white;
+}
+
+#pricing_99{
+  background-color: rgb(2, 200, 98);
+  color: white;
+}
+
+
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+</style>
+
+
+
+<body>
+
+<div class="parent_blue">
+
+  <div class="price_table1">
+
+
+    <div  id="pricing_29" class="pricing">$29</div>
+  
+    <h2>Basic</h2>
+    
+
+
+    <ul>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template <i class="fa-solid fa-xmark"></i></li>
+      <li>One Selected Template <i class="fa-solid fa-xmark"></i></li>
+    
+    </ul> 
+
+      <button>Purchase</button>
+
+
+
+
+  </div>
+
+  <!-- price table 2 here ✅✅✅ -->
+
+  <div class="price_table2">
+
+    <div id="pricing_59" class="pricing">$59</div>
+  
+    <h2>Premium</h2>
+
+
+    <ul>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template</li>
+    
+    </ul>
+
+      <button>Purchase</button>
+
+
+
+
+
+  </div>
+
+
+  <!-- price table 3 ✅✅ -->
+
+  <div class="price_table3">
+   
+    <div id="pricing_99" class="pricing">$99</div>
+  
+    <h2>Ultimate</h2>
+
+
+    <ul>
+      <li>One Selected Template <i class="fa-solid fa-check"></i> </li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i></li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i></li>
+      <li>One Selected Template <i class="fa-solid fa-check"></i></li>
+    
+    </ul>
+
+      <button>Purchase</button>
+    
+
+
+
+  </div>
+
+
+</div>
+  
+  
+</body>
+</html>

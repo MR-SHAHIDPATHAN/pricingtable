@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+<style>
+body{
+  background-color: rgb(164, 221, 164);
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white_box{
+  background-color: rgb(255, 255, 255);
+  padding:20px 40px;
+  width: 45%;
+  
+
+}
+
+.parent{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.first_name{
+  /* border: 1px solid blue; */
+  width: 50%;
+  margin-right: 10px;
+
+
+}
+
+.first_name > input{
+  padding: 10px;
+  background-color: rgb(227, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 90%;
+}
+
+
+
+.email{
+ 
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 10px;
+}
+
+.email > input {
+  padding: 10px;
+  background-color: rgb(227, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 90%;
+ 
+
+}
+
+.web{
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+.web > input {
+  padding: 10px;
+  background-color: rgb(227, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+
+
+}
+
+
+.message{
+  /* border: 1px solid blue; */
+}
+
+.message > textarea{
+  background-color: rgb(227, 225, 225);
+  border: none;
+  outline: none;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.btn > input{
+
+  /* background-color: red; */
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(209, 4, 121),rgb(255, 94, 0));
+  cursor: pointer;
+
+  
+}
+
+
+
+
+</style>
+
+
+
+  
+<div class="white_box">
+  <h2> get in touch </h2>
+  <form action="">
+   
+    <div class="parent">
+      <div class="first_name">
+       <p>Enter Your first Name</p>
+       <input type="text">
+      </div>
+
+       <div class="email">
+        <p>enter Your email id </p>
+        <input type="email">
+
+       </div>
+    </div>
+
+<div class="web">
+  <label class="web" for="">Your Website :
+    <input type="url" name="" id="">
+  </label>
+</div>
+
+
+
+
+<div class="message">
+  <p>Message</p>
+  <textarea name="" id="" cols="66" rows="5" >
+    Hi...
+  </textarea>
+
+</div>
+
+ 
+<div class="btn">
+  <input type="submit">
+</div>
+    
+
+  </form>
+
+</div>
+
+</body>
+</html>
